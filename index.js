@@ -15,7 +15,7 @@ const loadTemplate = () => {
         cart();
         initApp();
     })
-}
+};
 loadTemplate();
 const initApp = () => {
      // load list product
