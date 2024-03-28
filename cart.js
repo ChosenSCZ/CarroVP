@@ -1,11 +1,11 @@
 import products from './products.js';
 const cart = () => {
-    let listCartHTML = document.querySelector('.listCart');
+    //let listCartHTML = document.querySelector('.listCart');
     let iconCart = document.querySelector('.icon-cart');
     let closeBtn = document.querySelector('.cartTab .close');
-    let iconCartSpan = iconCart.querySelector('span');
+    //let iconCartSpan = iconCart.querySelector('span');
     let body = document.querySelector('body');
-    let closeCart = document.querySelector('.close');
+    //let closeCart = document.querySelector('.close');
     let cart = [];
 
     // open and close tab
