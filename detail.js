@@ -22,7 +22,7 @@ const initApp = () => {
     let info = products.filter((value) => value.id == idProduct)[0];
     //   let thisProduct = products.filter(value => value.id == idProduct)[0];
     if(!info){
-        window.location.href = "/index.html";
+        window.location.href = "/";
     }
  //   let idProduct = new URLSearchParams(window.location.search).get('id');
  //   let thisProduct = products.filter(value => value.id == idProduct)[0];
